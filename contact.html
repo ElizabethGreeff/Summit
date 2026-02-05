@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Facility Care</title>
+
+  <link rel="stylesheet" href="styles/home.css" />
+  <link rel="stylesheet" href="styles/home-large.css" media="(min-width: 768px)" />
+
+  <script src="scripts/nav.js" defer></script>
+  <script src="scripts/contact.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+  <nav class="nav">
+    <a href="index.html"><img src="images/logo.webp" alt="Summit Facilities Specialists logo" class="logo" /></a>
+    <h1 class="heading">Summit Facilities Specialists</h1>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#why">Why Summit</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="contact.html" class="btn-primary">Request Service</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Clean, functional, beautiful. Facilities that shine.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-details">
+        <h2>Let's Talk!</h2>
+        <p>
+          Whether you need ongoing facility support or a once-off service,
+          we're here to help.
+        </p>
+
+        <div class="contact-item">
+          <span>Phone us at:</span>
+          <button class="copy-btn" data-copy="+27 71 178 7057">
+            +27 71 178 7057
+          </button>
+        </div>
+
+        <div class="contact-item">
+          <span>Email us here:</span>
+          <a href="mailto:info@facilitycare.co.za">
+            info@facilitycare.co.za
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <h2>Send a Message</h2>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Needed *</label>
+            <select id="service">
+              <option>Gardening & Landscaping</option>
+              <option>Cleaning Services</option>
+              <option>Maintenance</option>
+              <option>Audio & Visual</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <a href="index.html"><img src="images/logo.webp" alt="Summit Facilities Specialists logo" class="logo" /></a>
+    <p>Comprehensive Facility Maintenance & Operations</p>
+    <small>© 2026 Summit Facilities Specialists</small>
+</footer>
+</body>
+</html>

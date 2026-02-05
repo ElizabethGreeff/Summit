@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .nav-links { 
+        display: flex; 
+    }
+    .hamburger { 
+        display: none; 
+    }
+
+    .faq-grid { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .service-cards { 
+        grid-template-columns: repeat(4, 1fr); 
+    }
+
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.25rem;
+    }
+
+    .why-summit h2 {
+        font-size: 2.25rem;
+    }
+}
