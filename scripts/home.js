@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const slides = [
     { title: 'Facility Maintenance & Cleaning', text: 'Clean, compliant, and reliable facilities.', image: '.../images/facility.webp' },
-    { title: 'Grounds Keeping', text: 'Safe, attractive outdoor spaces.', image: '.../images/garden.webp' },
-    { title: 'PA & Audio Visual', text: 'Clear communication and event-ready systems.', image: '.../images/AV.webp' },
-    { title: 'Remote Monitoring', text: 'Proactive oversight and smart alerts.', image: '.../images/security.webp' }
+    { title: 'Grounds Keeping', text: 'Safe, attractive outdoor spaces.', image: '../images/garden.webp' },
+    { title: 'PA & Audio Visual', text: 'Clear communication and event-ready systems.', image: '../summit/images/AV.webp' },
+    { title: 'Remote Monitoring', text: 'Proactive oversight and smart alerts.', image: './images/security.webp' }
   ];
 
   let current = 0;
